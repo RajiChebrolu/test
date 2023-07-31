@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-heading {
+  margin-top: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 35px;
+  background: #F6F6F7;
+  color: #222222;
+  font-size: small;
+}
+
+.header-heading h1 {
+  font-size: 0.8rem;
+  color: #222222;
+  margin-left: 18%;
+  text-align: right;
+  margin-right: 8%;
+}
+
+#home {
+  margin-top: 0px;
+  margin-left: 20%;
+  width: 200vh;
+  height: 120vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+
+.home-image {
+  margin-top: 25px;
+  width: 45%;
+  height: 70%;
+  background-image: url(images/classic-tee.jpg);
+}
+
+.home-text h1 {
+  font-size: 1.5rem;
+  color: #222222;
+  margin: 50px;
+  margin-left: 18%;
+}
+
+.home-text h2 {
+  font-size: 1.5rem;
+  color: #222222;
+  margin-top: 1%;
+  margin-left: 18%;
+}
+
+.home-text p {
+  font-size: smaller;
+  color: #222222;
+  margin-top: 1%;
+  margin-left: 18%;
+  margin-right: 40%;
+}
+
+.home-text h3 {
+  font-size: medium;
+  color: #222222;
+  margin-top: 1%;
+  margin-left: 18%;
+  margin-right: 40%;
+}
+
+
+.button-group button {
+  background-color: #ffffff;
+  font-size: small;
+  color: #222222;
+  margin-left: 1%;
+  height: 35px;
+  width: 35px;
+  border-width: 1px;
+}
+
+.button-group {
+  margin-left: 18%;
+  margin-right: 40%;
+}
+
+.cart {
+  font-size: 2rem;
+  color: #222222;
+  margin-top: 1%;
+  margin-left: 18%;
+}
+
+.cart button {
+  height: 35px;
+  width: 135px;
+  border-width: 2.5px;
+}
+
+@media only screen and (max-width: 390px) {
+
+  #home {
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 200vh;
+    height: 120vh;
+
+  }
+
+  .home-image {
+    margin-top: 25px;
+    width: 45%;
+    height: 70%;
+    background-image: url(images/classic-tee.jpg);
+  }
+}
